@@ -4,7 +4,7 @@ metadata:
   name: specific-child-app
   namespace: argocd
 spec:
-  project: default
+  project: applications
   source:
     repoURL: https://github.com/hvl71/redis-helm.git
     targetRevision: main
