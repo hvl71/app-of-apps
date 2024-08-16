@@ -6,7 +6,6 @@ metadata:
 spec:
   project: default
   source:
-    path: specific-parent-app 
     repoURL: https://github.com/hvl71/redis-helm.git
     targetRevision: main
   destination:
